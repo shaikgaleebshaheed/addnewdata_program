@@ -30,7 +30,7 @@ public class addstudent extends HttpServlet {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/displayrec",
                     "root",
-                    "jahe2506"
+                    ""
             );
 
             String sql = "INSERT INTO studentss(name, age, course) VALUES (?, ?, ?)";
